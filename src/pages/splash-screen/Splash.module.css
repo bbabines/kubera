@@ -1,0 +1,23 @@
+.container {
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-image: linear-gradient(#363a4b, #191919);
+}
+
+.logo {
+	max-width: 500px;
+	padding: 1.5em;
+}
+
+.info {
+	color: #adadad;
+	font-size: 1.25rem;
+	font-family: "Lato", sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
